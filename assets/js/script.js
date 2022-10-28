@@ -39,8 +39,8 @@ startButton.addEventListener("click", function(){
     //identify where we print main text string to.
     var mainText = document.querySelector(".word-blanks")
     //declare the words the game contains to an array.
-    var wordOptions = ["JavaScript", "Method", "Variable", ".querySelector"];
-    //declare the word we're using and split it into an array.
+    var wordOptions = ["Words", "That", "The", "Game", "Uses", "Are", "In", "This", "Variable", "Which", "Is", "An", "Array"];
+    //declare the word we're using.
     var wordChoice = wordOptions[Math.floor(Math.random() * wordOptions.length)];
     console.log(wordChoice);
     //add that words length to a var for later loops.
